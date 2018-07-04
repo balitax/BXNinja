@@ -3,7 +3,7 @@
 //  DOTextension
 //
 //  Created by Agus Cahyono on 25/06/18.
-//  Copyright © 2018 DOT Indonesia. All rights reserved.
+//  Copyright © 2018 Agus Cahyono. All rights reserved.
 //
 
 import Foundation
@@ -15,7 +15,7 @@ import Foundation
  * 002 = Data validation error
  * 003 = Wrong credential
  ***/
-enum DOTErrorErrorCode: String {
+enum NinjaErrorErrorCode: String {
     case requestMustJson = "001"
     case dataValidationError = "002"
     case wrongCredential = "003"

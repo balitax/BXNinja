@@ -125,13 +125,18 @@ open class DOTFire {
         
     }
     
-    func mappingDecode(_ data: Any, responseData: Data) {
-//        let decoder = JSONDecoder()
-//        guard let callback = try? decoder.decode(data.self, from: responseData) else {
-//            return
-//        }
-    }
     
+    /// MARK: Mapping Encode Data
+    ///
+    /// - Parameters:
+    ///   - data: data
+    ///   - responseData: response data
+    func mappingDecode(_ data: Any, responseData: Data) {
+        let decoder = JSONDecoder()
+        guard let callback = try? decoder.decode(data.self, from: responseData) else {
+            return
+        }
+    }
     
     /// MARK: Default error message
     ///

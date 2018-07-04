@@ -3,12 +3,12 @@
 //  DOTextension
 //
 //  Created by Agus Cahyono on 25/06/18.
-//  Copyright © 2018 DOT Indonesia. All rights reserved.
+//  Copyright © 2018 Agus Cahyono. All rights reserved.
 //
 
 import Foundation
 
-struct DOTError: Codable {
+struct NinjaError: Codable {
     let statusCode: Int?
     let data: DataError?
     

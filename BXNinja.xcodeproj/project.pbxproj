@@ -21,14 +21,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		2F1CC5DD20EC874F00BF8E60 /* NinjaReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CC5DC20EC874F00BF8E60 /* NinjaReachability.swift */; };
 		2F56305020E9E3780082B0ED /* BXNinja.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F56304620E9E3780082B0ED /* BXNinja.framework */; };
 		2F56305520E9E3780082B0ED /* DOTExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56305420E9E3780082B0ED /* DOTExtensionTests.swift */; };
 		2F56305720E9E3780082B0ED /* DOTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F56304920E9E3780082B0ED /* DOTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F56306420E9E3870082B0ED /* DOTErrorCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56306120E9E3870082B0ED /* DOTErrorCodes.swift */; };
-		2F56306520E9E3870082B0ED /* DOTHttpStatusCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56306220E9E3870082B0ED /* DOTHttpStatusCodes.swift */; };
-		2F56306620E9E3870082B0ED /* DOTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56306320E9E3870082B0ED /* DOTError.swift */; };
-		2F56306A20E9E3940082B0ED /* DOTImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56306820E9E3940082B0ED /* DOTImage.swift */; };
-		2F56306B20E9E3940082B0ED /* DOTFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56306920E9E3940082B0ED /* DOTFire.swift */; };
+		2F56306420E9E3870082B0ED /* NinjaErrorCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56306120E9E3870082B0ED /* NinjaErrorCodes.swift */; };
+		2F56306520E9E3870082B0ED /* NinjaHttpStatusCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56306220E9E3870082B0ED /* NinjaHttpStatusCodes.swift */; };
+		2F56306620E9E3870082B0ED /* NinjaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56306320E9E3870082B0ED /* NinjaError.swift */; };
+		2F56306A20E9E3940082B0ED /* NinjaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56306820E9E3940082B0ED /* NinjaImage.swift */; };
+		2F56306B20E9E3940082B0ED /* NinjaFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56306920E9E3940082B0ED /* NinjaFire.swift */; };
 		2F56306E20E9E3AF0082B0ED /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F56306D20E9E3AF0082B0ED /* Alamofire.framework */; };
 		2F56307020E9E7B30082B0ED /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F56306F20E9E7B30082B0ED /* SDWebImage.framework */; };
 /* End PBXBuildFile section */
@@ -44,17 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F1CC5DC20EC874F00BF8E60 /* NinjaReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaReachability.swift; sourceTree = "<group>"; };
 		2F56304620E9E3780082B0ED /* BXNinja.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BXNinja.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F56304920E9E3780082B0ED /* DOTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOTExtension.h; sourceTree = "<group>"; };
 		2F56304A20E9E3780082B0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F56304F20E9E3780082B0ED /* BXNinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BXNinjaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F56305420E9E3780082B0ED /* DOTExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOTExtensionTests.swift; sourceTree = "<group>"; };
 		2F56305620E9E3780082B0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F56306120E9E3870082B0ED /* DOTErrorCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOTErrorCodes.swift; sourceTree = "<group>"; };
-		2F56306220E9E3870082B0ED /* DOTHttpStatusCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOTHttpStatusCodes.swift; sourceTree = "<group>"; };
-		2F56306320E9E3870082B0ED /* DOTError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOTError.swift; sourceTree = "<group>"; };
-		2F56306820E9E3940082B0ED /* DOTImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOTImage.swift; sourceTree = "<group>"; };
-		2F56306920E9E3940082B0ED /* DOTFire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOTFire.swift; sourceTree = "<group>"; };
+		2F56306120E9E3870082B0ED /* NinjaErrorCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinjaErrorCodes.swift; sourceTree = "<group>"; };
+		2F56306220E9E3870082B0ED /* NinjaHttpStatusCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinjaHttpStatusCodes.swift; sourceTree = "<group>"; };
+		2F56306320E9E3870082B0ED /* NinjaError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinjaError.swift; sourceTree = "<group>"; };
+		2F56306820E9E3940082B0ED /* NinjaImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinjaImage.swift; sourceTree = "<group>"; };
+		2F56306920E9E3940082B0ED /* NinjaFire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinjaFire.swift; sourceTree = "<group>"; };
 		2F56306D20E9E3AF0082B0ED /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
 		2F56306F20E9E7B30082B0ED /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,9 +124,9 @@
 		2F56306020E9E3870082B0ED /* Error-Helper */ = {
 			isa = PBXGroup;
 			children = (
-				2F56306120E9E3870082B0ED /* DOTErrorCodes.swift */,
-				2F56306220E9E3870082B0ED /* DOTHttpStatusCodes.swift */,
-				2F56306320E9E3870082B0ED /* DOTError.swift */,
+				2F56306120E9E3870082B0ED /* NinjaErrorCodes.swift */,
+				2F56306220E9E3870082B0ED /* NinjaHttpStatusCodes.swift */,
+				2F56306320E9E3870082B0ED /* NinjaError.swift */,
 			);
 			path = "Error-Helper";
 			sourceTree = "<group>";
@@ -132,8 +134,9 @@
 		2F56306720E9E3940082B0ED /* Network-Helper */ = {
 			isa = PBXGroup;
 			children = (
-				2F56306820E9E3940082B0ED /* DOTImage.swift */,
-				2F56306920E9E3940082B0ED /* DOTFire.swift */,
+				2F56306820E9E3940082B0ED /* NinjaImage.swift */,
+				2F56306920E9E3940082B0ED /* NinjaFire.swift */,
+				2F1CC5DC20EC874F00BF8E60 /* NinjaReachability.swift */,
 			);
 			path = "Network-Helper";
 			sourceTree = "<group>";
@@ -275,11 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F56306520E9E3870082B0ED /* DOTHttpStatusCodes.swift in Sources */,
-				2F56306B20E9E3940082B0ED /* DOTFire.swift in Sources */,
-				2F56306620E9E3870082B0ED /* DOTError.swift in Sources */,
-				2F56306420E9E3870082B0ED /* DOTErrorCodes.swift in Sources */,
-				2F56306A20E9E3940082B0ED /* DOTImage.swift in Sources */,
+				2F56306520E9E3870082B0ED /* NinjaHttpStatusCodes.swift in Sources */,
+				2F1CC5DD20EC874F00BF8E60 /* NinjaReachability.swift in Sources */,
+				2F56306B20E9E3940082B0ED /* NinjaFire.swift in Sources */,
+				2F56306620E9E3870082B0ED /* NinjaError.swift in Sources */,
+				2F56306420E9E3870082B0ED /* NinjaErrorCodes.swift in Sources */,
+				2F56306A20E9E3940082B0ED /* NinjaImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

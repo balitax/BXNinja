@@ -1,0 +1,4 @@
+framework module BXNinja {
+    header "BXNinja-Swift.h"
+    requires objc
+}

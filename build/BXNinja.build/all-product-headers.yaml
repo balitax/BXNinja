@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/agusc/Library/Developer/Xcode/DerivedData/BXNinja-gxytlqvtiavuzyewhdphrgvurefv/Build/Products/Debug-iphonesimulator/BXNinja.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BXNinja-Swift.h",
+          'external-contents': "/Users/agusc/Library/Developer/Xcode/DerivedData/BXNinja-gxytlqvtiavuzyewhdphrgvurefv/Build/Products/Debug-iphonesimulator/BXNinja.framework/Headers/BXNinja-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DOTExtension.h",
+          'external-contents': "/Users/agusc/DOTExtension/BXNinja/DOTExtension.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/agusc/Library/Developer/Xcode/DerivedData/BXNinja-gxytlqvtiavuzyewhdphrgvurefv/Build/Products/Debug-iphonesimulator/BXNinja.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/agusc/DOTExtension/build/BXNinja.build/Debug-iphonesimulator/BXNinja.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

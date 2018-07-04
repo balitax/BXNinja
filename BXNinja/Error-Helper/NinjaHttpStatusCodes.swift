@@ -3,7 +3,7 @@
 //  DOTextension
 //
 //  Created by Agus Cahyono on 25/06/18.
-//  Copyright © 2018 DOT Indonesia. All rights reserved.
+//  Copyright © 2018 Agus Cahyono. All rights reserved.
 //
 
 import Foundation
@@ -22,7 +22,7 @@ import Foundation
  *
  * 500 = Internal server error
  ***/
-enum DOTHTTPStatusCode: Int {
+enum NinjaHTTPStatusCode: Int {
     /// Success
     case responseSuccess = 200
     case resourceCreated = 201
