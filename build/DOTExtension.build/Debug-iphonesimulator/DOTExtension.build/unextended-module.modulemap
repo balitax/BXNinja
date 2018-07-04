@@ -1,0 +1,10 @@
+framework module DOTExtension {
+  umbrella header "DOTExtension.h"
+
+  export *
+  module * { export * }
+}
+
+module DOTExtension.__Swift {
+    exclude header "DOTExtension-Swift.h"
+}

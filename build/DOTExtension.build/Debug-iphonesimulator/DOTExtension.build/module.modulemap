@@ -1,0 +1,11 @@
+framework module DOTExtension {
+  umbrella header "DOTExtension.h"
+
+  export *
+  module * { export * }
+}
+
+module DOTExtension.Swift {
+    header "DOTExtension-Swift.h"
+    requires objc
+}

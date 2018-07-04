@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "9e86978de0bc348510f0b6a32391aef6"
+build_time: [1530606125, 601670000]
+inputs:
+  "/Users/agusc/DOTExtension/DOTExtension/Error-Helper/DOTHttpStatusCodes.swift": [1529917985, 0]
+  "/Users/agusc/DOTExtension/DOTExtension/Network-Helper/DOTFire.swift": [1530503498, 0]
+  "/Users/agusc/DOTExtension/DOTExtension/Error-Helper/DOTError.swift": [1529922319, 0]
+  "/Users/agusc/DOTExtension/DOTExtension/Error-Helper/DOTErrorCodes.swift": [1529917932, 0]
+  "/Users/agusc/DOTExtension/DOTExtension/Network-Helper/DOTImage.swift": [1530508358, 0]

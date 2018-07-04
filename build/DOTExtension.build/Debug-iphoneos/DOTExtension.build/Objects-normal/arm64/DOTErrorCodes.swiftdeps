@@ -1,0 +1,197 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DOTErrorErrorCode"
+provides-nominal:
+- "12DOTExtension17DOTErrorErrorCodeO"
+provides-member:
+- ["12DOTExtension17DOTErrorErrorCodeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- "DOTErrorErrorCode"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["12DOTExtension17DOTErrorErrorCodeO", "RawValue"]
+- ["12DOTExtension17DOTErrorErrorCodeO", "_Default_RawValue"]
+- !private ["12DOTExtension17DOTErrorErrorCodeO", "_findStringSwitchCase"]
+- ["12DOTExtension17DOTErrorErrorCodeO", "dataValidationError"]
+- ["12DOTExtension17DOTErrorErrorCodeO", "deinit"]
+- ["12DOTExtension17DOTErrorErrorCodeO", "hashValue"]
+- ["12DOTExtension17DOTErrorErrorCodeO", "init"]
+- ["12DOTExtension17DOTErrorErrorCodeO", "rawValue"]
+- ["12DOTExtension17DOTErrorErrorCodeO", "requestMustJson"]
+- ["12DOTExtension17DOTErrorErrorCodeO", "wrongCredential"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_findStringSwitchCase"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_findStringSwitchCase"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "rawValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "_findStringSwitchCase"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "12DOTExtension17DOTErrorErrorCodeO"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "9Alamofire14URLConvertibleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/UIImage+WebP.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/FLAnimatedImage.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/FLAnimatedImageView+WebCache.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/MKAnnotationView+WebCache.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/agusc/DOTExtension/DOTExtension/DOTExtension.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImageWebPCoder.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Headers/FLAnimatedImageView.h"
+- "/Users/agusc/DOTExtension/build/DOTExtension.build/Debug-iphoneos/DOTExtension.build/unextended-module.modulemap"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/agusc/DOTExtension/DOTExtension/Embed-Framework/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d9312c608d04d7817f5e2b936ed23a5a"

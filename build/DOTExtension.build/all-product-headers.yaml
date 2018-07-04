@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/agusc/Library/Developer/Xcode/DerivedData/DOTExtension-edffmqddljdsltetdrrzfkatuubv/Build/Products/Debug-iphonesimulator/DOTExtension.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DOTExtension-Swift.h",
+          'external-contents': "/Users/agusc/Library/Developer/Xcode/DerivedData/DOTExtension-edffmqddljdsltetdrrzfkatuubv/Build/Products/Debug-iphonesimulator/DOTExtension.framework/Headers/DOTExtension-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DOTExtension.h",
+          'external-contents': "/Users/agusc/DOTExtension/DOTExtension/DOTExtension.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/agusc/Library/Developer/Xcode/DerivedData/DOTExtension-edffmqddljdsltetdrrzfkatuubv/Build/Products/Debug-iphonesimulator/DOTExtension.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/agusc/DOTExtension/build/DOTExtension.build/Debug-iphonesimulator/DOTExtension.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
