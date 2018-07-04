@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		2F53B52720EB53BD00C136AB /* DOTFox */ = {
+		2F1CC5D720EC832400BF8E60 /* SwiftNinja */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2F53B52A20EB53BD00C136AB /* Build configuration list for PBXAggregateTarget "DOTFox" */;
+			buildConfigurationList = 2F1CC5D820EC832400BF8E60 /* Build configuration list for PBXAggregateTarget "SwiftNinja" */;
 			buildPhases = (
-				2F53B52B20EB53C500C136AB /* ShellScript */,
+				2F1CC5DB20EC834700BF8E60 /* ShellScript */,
 			);
 			dependencies = (
 			);
-			name = DOTFox;
-			productName = DOTFox;
+			name = SwiftNinja;
+			productName = SwiftNinja;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2F56305020E9E3780082B0ED /* DOTExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F56304620E9E3780082B0ED /* DOTExtension.framework */; };
+		2F56305020E9E3780082B0ED /* BXNinja.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F56304620E9E3780082B0ED /* BXNinja.framework */; };
 		2F56305520E9E3780082B0ED /* DOTExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56305420E9E3780082B0ED /* DOTExtensionTests.swift */; };
 		2F56305720E9E3780082B0ED /* DOTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F56304920E9E3780082B0ED /* DOTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F56306420E9E3870082B0ED /* DOTErrorCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56306120E9E3870082B0ED /* DOTErrorCodes.swift */; };
@@ -44,10 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F56304620E9E3780082B0ED /* DOTExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DOTExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F56304620E9E3780082B0ED /* BXNinja.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BXNinja.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F56304920E9E3780082B0ED /* DOTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOTExtension.h; sourceTree = "<group>"; };
 		2F56304A20E9E3780082B0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F56304F20E9E3780082B0ED /* DOTExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOTExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F56304F20E9E3780082B0ED /* BXNinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BXNinjaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F56305420E9E3780082B0ED /* DOTExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOTExtensionTests.swift; sourceTree = "<group>"; };
 		2F56305620E9E3780082B0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F56306120E9E3870082B0ED /* DOTErrorCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOTErrorCodes.swift; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F56305020E9E3780082B0ED /* DOTExtension.framework in Frameworks */,
+				2F56305020E9E3780082B0ED /* BXNinja.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,8 +83,8 @@
 		2F56303C20E9E3780082B0ED = {
 			isa = PBXGroup;
 			children = (
-				2F56304820E9E3780082B0ED /* DOTExtension */,
-				2F56305320E9E3780082B0ED /* DOTExtensionTests */,
+				2F56304820E9E3780082B0ED /* BXNinja */,
+				2F56305320E9E3780082B0ED /* BXNinjaTests */,
 				2F56304720E9E3780082B0ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,13 +92,13 @@
 		2F56304720E9E3780082B0ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F56304620E9E3780082B0ED /* DOTExtension.framework */,
-				2F56304F20E9E3780082B0ED /* DOTExtensionTests.xctest */,
+				2F56304620E9E3780082B0ED /* BXNinja.framework */,
+				2F56304F20E9E3780082B0ED /* BXNinjaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F56304820E9E3780082B0ED /* DOTExtension */ = {
+		2F56304820E9E3780082B0ED /* BXNinja */ = {
 			isa = PBXGroup;
 			children = (
 				2F56306C20E9E3980082B0ED /* Embed-Framework */,
@@ -107,16 +107,16 @@
 				2F56304920E9E3780082B0ED /* DOTExtension.h */,
 				2F56304A20E9E3780082B0ED /* Info.plist */,
 			);
-			path = DOTExtension;
+			path = BXNinja;
 			sourceTree = "<group>";
 		};
-		2F56305320E9E3780082B0ED /* DOTExtensionTests */ = {
+		2F56305320E9E3780082B0ED /* BXNinjaTests */ = {
 			isa = PBXGroup;
 			children = (
 				2F56305420E9E3780082B0ED /* DOTExtensionTests.swift */,
 				2F56305620E9E3780082B0ED /* Info.plist */,
 			);
-			path = DOTExtensionTests;
+			path = BXNinjaTests;
 			sourceTree = "<group>";
 		};
 		2F56306020E9E3870082B0ED /* Error-Helper */ = {
@@ -161,9 +161,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2F56304520E9E3780082B0ED /* DOTExtension */ = {
+		2F56304520E9E3780082B0ED /* BXNinja */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F56305A20E9E3780082B0ED /* Build configuration list for PBXNativeTarget "DOTExtension" */;
+			buildConfigurationList = 2F56305A20E9E3780082B0ED /* Build configuration list for PBXNativeTarget "BXNinja" */;
 			buildPhases = (
 				2F56304120E9E3780082B0ED /* Sources */,
 				2F56304220E9E3780082B0ED /* Frameworks */,
@@ -174,14 +174,14 @@
 			);
 			dependencies = (
 			);
-			name = DOTExtension;
+			name = BXNinja;
 			productName = DOTExtension;
-			productReference = 2F56304620E9E3780082B0ED /* DOTExtension.framework */;
+			productReference = 2F56304620E9E3780082B0ED /* BXNinja.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2F56304E20E9E3780082B0ED /* DOTExtensionTests */ = {
+		2F56304E20E9E3780082B0ED /* BXNinjaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F56305D20E9E3780082B0ED /* Build configuration list for PBXNativeTarget "DOTExtensionTests" */;
+			buildConfigurationList = 2F56305D20E9E3780082B0ED /* Build configuration list for PBXNativeTarget "BXNinjaTests" */;
 			buildPhases = (
 				2F56304B20E9E3780082B0ED /* Sources */,
 				2F56304C20E9E3780082B0ED /* Frameworks */,
@@ -192,9 +192,9 @@
 			dependencies = (
 				2F56305220E9E3780082B0ED /* PBXTargetDependency */,
 			);
-			name = DOTExtensionTests;
+			name = BXNinjaTests;
 			productName = DOTExtensionTests;
-			productReference = 2F56304F20E9E3780082B0ED /* DOTExtensionTests.xctest */;
+			productReference = 2F56304F20E9E3780082B0ED /* BXNinjaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Agus Cahyono";
 				TargetAttributes = {
-					2F53B52720EB53BD00C136AB = {
+					2F1CC5D720EC832400BF8E60 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 					2F56304520E9E3780082B0ED = {
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2F56304020E9E3780082B0ED /* Build configuration list for PBXProject "DOTExtension" */;
+			buildConfigurationList = 2F56304020E9E3780082B0ED /* Build configuration list for PBXProject "BXNinja" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -230,9 +230,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F56304520E9E3780082B0ED /* DOTExtension */,
-				2F56304E20E9E3780082B0ED /* DOTExtensionTests */,
-				2F53B52720EB53BD00C136AB /* DOTFox */,
+				2F56304520E9E3780082B0ED /* BXNinja */,
+				2F56304E20E9E3780082B0ED /* BXNinjaTests */,
+				2F1CC5D720EC832400BF8E60 /* SwiftNinja */,
 			);
 		};
 /* End PBXProject section */
@@ -255,7 +255,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2F53B52B20EB53C500C136AB /* ShellScript */ = {
+		2F1CC5DB20EC834700BF8E60 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,7 +266,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"DOTExtension\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"DOTExtension\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/DOTExtension.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/DOTExtension.framework/Modules/DOTExtension.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/DOTExtension.framework/Modules/DOTExtension.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/DOTExtension.framework/DOTExtension\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/DOTExtension.framework/DOTExtension\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/DOTExtension.framework/DOTFox\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/DOTExtension.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"";
+			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"BXNinja\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"BXNinja\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/BXNinja.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/BXNinja.framework/Modules/BXNinja.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/BXNinja.framework/Modules/BXNinja.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/DOTExtension.framework/DOTExtension\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/BXNinja.framework/BXNinja\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/BXNinja.framework/DOTFox\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/BXNinja.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -296,13 +296,13 @@
 /* Begin PBXTargetDependency section */
 		2F56305220E9E3780082B0ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F56304520E9E3780082B0ED /* DOTExtension */;
+			target = 2F56304520E9E3780082B0ED /* BXNinja */;
 			targetProxy = 2F56305120E9E3780082B0ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2F53B52820EB53BD00C136AB /* Debug */ = {
+		2F1CC5D920EC832400BF8E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -311,7 +311,7 @@
 			};
 			name = Debug;
 		};
-		2F53B52920EB53BD00C136AB /* Release */ = {
+		2F1CC5DA20EC832400BF8E60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -539,16 +539,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F53B52A20EB53BD00C136AB /* Build configuration list for PBXAggregateTarget "DOTFox" */ = {
+		2F1CC5D820EC832400BF8E60 /* Build configuration list for PBXAggregateTarget "SwiftNinja" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F53B52820EB53BD00C136AB /* Debug */,
-				2F53B52920EB53BD00C136AB /* Release */,
+				2F1CC5D920EC832400BF8E60 /* Debug */,
+				2F1CC5DA20EC832400BF8E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F56304020E9E3780082B0ED /* Build configuration list for PBXProject "DOTExtension" */ = {
+		2F56304020E9E3780082B0ED /* Build configuration list for PBXProject "BXNinja" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F56305820E9E3780082B0ED /* Debug */,
@@ -557,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F56305A20E9E3780082B0ED /* Build configuration list for PBXNativeTarget "DOTExtension" */ = {
+		2F56305A20E9E3780082B0ED /* Build configuration list for PBXNativeTarget "BXNinja" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F56305B20E9E3780082B0ED /* Debug */,
@@ -566,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F56305D20E9E3780082B0ED /* Build configuration list for PBXNativeTarget "DOTExtensionTests" */ = {
+		2F56305D20E9E3780082B0ED /* Build configuration list for PBXNativeTarget "BXNinjaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F56305E20E9E3780082B0ED /* Debug */,
